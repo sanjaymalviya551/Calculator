@@ -1,0 +1,35 @@
+  *{
+            font-family: 'Kanit', sans-serif;;
+        }
+        table {
+         
+            width: 420px;
+            background-color: skyblue;
+            margin: auto;
+            text-align: center;
+             box-shadow:inset 0 0 160px whitesmoke, inset 20px 0 80px #f0f ,inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+        }
+       button {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            color: white;
+            font-size: 4rem;
+            background: black;
+            
+        }
+        button:hover{
+            transform: rotate3d(3, 0+, 1, 360deg);
+            color: red;
+            font-size: 4.3rem;
+            transition: 1s;
+            border: 5px dotted yellow;
+        }
+
+        input {
+            border-radius: px;
+            text-align: right;
+            font-size: 2rem ;
+            width: 96%;
+            height: 60px;
+        }

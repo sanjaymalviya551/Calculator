@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table border="2px" cellspacing="20px" cellpadding="10px">
+        <tr>
+            <td><button onclick="clearBox()">C</button></td>
+            <td><button onclick="backSpace()" style="font-size: 0.6rem; font-weight: bold;">BACKSPACE</button></td>
+            <td colspan="2"><input type="text" id="data" readonly></td>
+        </tr>
+            <tr>
+                <td><button onclick="insertValue('+')">+</button></td>
+                <td><button onclick="insertValue('1')">1</button></td>
+                <td><button onclick="insertValue('2')">2</button></td>
+                <td><button onclick="insertValue('3')">3</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insertValue('-')">-</button></td>
+                <td><button onclick="insertValue('4')">4</button></td>
+                <td><button onclick="insertValue('5')">5</button></td>
+                <td><button onclick="insertValue('6')">6</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insertValue('*')">*</button></td>
+                <td><button onclick="insertValue('7')">7</button></td>
+                <td><button onclick="insertValue('8')">8</button></td>
+                <td><button onclick="insertValue('9')">9</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="insertValue('/')">/</button></td>
+                <td><button onclick="insertValue('.')">.</button></td>
+                <td><button onclick="insertValue('0')">0</button></td>
+                <td><button onclick="res()">=</button></td>
+            </tr>
+    </table>
+</body>
+    <script src="Javascript/script.js"></script>
+</html>
